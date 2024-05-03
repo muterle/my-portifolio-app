@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-portifolio-app",
-    "slug": "my-portifolio-app",
+    "name": "My Portfolio",
+    "slug": "my-portfolio-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.muterle.myportfolioapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44db423a-edaa-4f7f-80ac-b90aecb044de"
+      }
     }
   }
 }
