@@ -29,8 +29,9 @@ const Skill = ({ skill, level }: SkillProps) => {
     <>
       <Text style={styles.text}>{skill}</Text>
       <View style={styles.containerStars}>
-        {returnStars().map((star) => (
+        {returnStars().map((star, index) => (
           <MaterialCommunityIcons
+            key={index}
             name={star === 1 ? "star" : "star-outline"}
             size={30}
             color="#00c16c"
