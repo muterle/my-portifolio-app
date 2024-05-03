@@ -14,6 +14,7 @@ const HardSkillsScreen = () => {
           <Skill skill="React" level={3} />
           <Skill skill="MySQL" level={4} />
           <Skill skill="SQL" level={5} />
+          <Skill skill="MongoDB" level={3} />
           <Skill skill="NestJs" level={4} />
           <Skill skill="TypeORM" level={4} />
           <Skill skill="Ionic" level={3} />
